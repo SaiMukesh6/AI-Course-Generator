@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+
+# Environment Variables
+.env
+
+# Streamlit Cache
+.streamlit/
+
+# VS Code
+.vscode/
+
+# Database
+data/*.db
+
+# Generated PDFs
+generated_course.pdf
+
+# OS Files
+.DS_Store
+Thumbs.db

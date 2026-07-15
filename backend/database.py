@@ -1,4 +1,8 @@
 import sqlite3
+import os
+
+# Create data folder if it doesn't exist
+os.makedirs("data", exist_ok=True)
 
 DATABASE_NAME = "data/courses.db"
 
@@ -36,7 +40,9 @@ def get_courses():
     conn = sqlite3.connect(DATABASE_NAME)
     cursor = conn.cursor()
 
-    cursor.execute("SELECT topic, course FROM courses ORDER BY id DESC")
+    cursor.execute(
+        "SELECT topic, course FROM courses ORDER BY id DESC"
+    )
 
     courses = cursor.fetchall()
 

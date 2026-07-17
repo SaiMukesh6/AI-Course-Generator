@@ -53,11 +53,11 @@ Mention 3 to 5 important topics.
 
 ## Explanation
 
-Explain every topic in simple language.
+Explain every topic in simple language. If the topic is technical, scientific, or programming-related, you MUST include relevant code snippets, terminal commands, or syntax examples formatted in proper markdown code blocks (e.g., using ```python or ```bash).
 
 ## Practical Example
 
-Give one real-life example.
+Give one real-life example. If the topic is technical, provide a hands-on code sample or command-line demonstration illustrating the concept.
 
 ## Real World Application
 
